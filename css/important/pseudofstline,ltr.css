@@ -1,0 +1,15 @@
+p::first-letter{
+    color: brown;
+    font-style: oblique;
+    font-weight: bolder;
+    font-size: 70px;
+}
+
+p::first-line{
+    color: blue;
+    font-weight: bolder;
+} 
+
+p{
+    text-indent: 100px;
+}

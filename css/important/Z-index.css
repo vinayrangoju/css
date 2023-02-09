@@ -1,0 +1,61 @@
+body{
+    background-color: rgb(81, 81, 234);
+}
+
+ .banner{
+    border: red solid 5px; 
+    height: 500px;
+    padding: 3px;
+    position: relative;
+} 
+
+img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+/* } 
+.one{
+    z-index: 3;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+.two{
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    top: 10%;
+    left: 10%;
+}
+.three{
+    z-index: 1;
+    top: 20%;
+    left: 20%;
+
+} */
+
+} 
+.one{
+    z-index: 1;
+    width: 100px;
+    height: 100px;
+    top: 0;
+    left: 0;
+}
+
+.two{
+    z-index: 2;
+    width: 100px;
+    height: 100px;
+    /* position: static; -- z-index doesn't under positon-static */
+    top: 10%;
+    left: 10%;
+}
+.three{
+    z-index: 3;
+    top: 20%;
+    left: 20%;
+
+}

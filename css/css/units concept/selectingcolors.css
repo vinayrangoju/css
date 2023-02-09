@@ -1,0 +1,22 @@
+
+/* There are 144 colors */
+/* Each color max rgb value is 255 */
+
+/* Hex values  */
+#two {
+     color:#00ff00;   
+     background: rgb(22, 44, 22);
+}
+#three {
+    color: rgb(red, 255, blue);
+    background-color: rgb(32, 32, 67);
+}
+ /* Opacity by adding rgba element 0.5 */
+#one {
+    color: blueviolet;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+body {
+    background-color: rgba(20, 80, 100, 0.8);
+}

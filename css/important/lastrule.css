@@ -1,0 +1,28 @@
+h1 {
+    color: blue;
+}
+
+h1 {
+    color: brown;
+}
+
+/* Last rule is applicable for last added css */
+
+.one {
+    color:cadetblue;
+}
+
+/* Class has more specificity than element */
+
+#two_id {
+    color: darkgreen;
+}
+
+/* id has more specificity than class  */
+
+*{
+     padding: 0;
+     margin : 0;
+}
+
+/* universel selectors will applicable to all elements and selectors */

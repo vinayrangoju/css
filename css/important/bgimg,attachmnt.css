@@ -1,0 +1,64 @@
+/* *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+div{
+    min-height: 100vh;
+     color: rgb(244, 11, 11);
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     text-align: center;
+}
+
+.big
+{
+    
+    background: url("../images/pexels-christina-morillo-1181275.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    
+}
+
+.medium {
+    background: url("../images/pexels-veeterzy-303383.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat;
+    background-attachment: fixed;
+
+    
+}
+
+.small {
+    background: url("../images/pexels-craig-dennis-205421.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+    
+} */
+
+
+div{
+    height: 400px;
+    color: red;
+}
+
+.big{
+    background: url("../images/pexels-christina-morillo-1181275.jpg");
+    background-size: cover;
+
+}
+
+.small{
+    background: url("../images/pexels-craig-dennis-205421.jpg");
+    background-size: cover;
+    
+
+}
+
+.folder{
+    background: url("../images/pexels-veeterzy-303383.jpg");
+    background-size: cover;
+}
+

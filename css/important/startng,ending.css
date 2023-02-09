@@ -1,0 +1,86 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+p::after{
+    content:" Ending";
+font-weight: bold;
+color: brown;
+background: royalblue;
+font-size: 30px;
+display: inline;
+
+}
+
+    /* p::before{
+        content:"Starting ";  
+    background: royalblue;
+        font-weight: bold;
+        color: brown;
+        display: inline;
+        font-size: 30px;
+    } */
+
+    p::before{
+        content:" ";  
+    background: royalblue;
+    display: block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+        
+    } 
+
+    div{
+        width: 20vh;
+        height: 20vh;
+        margin: 40% auto;
+        /* border: 5px solid red; */
+        position: relative;
+    }
+
+    img{
+       width: 100%;
+       height: 100%;
+       display: block;
+        
+    }
+
+
+    div::after{
+        content: "";
+        border: solid grey 3px;
+        width: 100%;
+        height: 100%;
+        position: absolute ;
+        box-sizing: border-box;
+        top: -50px ;
+        left: -50px;
+        z-index: -2;
+        transition: all .5s linear;
+    }
+div::before{
+    content: "";
+        background-color: grey;
+        width: 100%;
+        height: 100%;
+        position: absolute ;
+        box-sizing: border-box;
+        top: -25px ;
+        left: -25px;
+        z-index: -2;
+        transition: all .5s linear;
+    }
+
+    div:hover::before, div:hover::after{
+      top: 0;
+      left: 0;
+
+    }
+
+    img:hover{
+        opacity: .5;
+        transition: all .5s linear;
+    }

@@ -1,0 +1,78 @@
+/* *{
+    margin: 90px;
+} */
+/* body{
+    background-color: cornflowerblue;
+}
+h2{
+    background: blue;
+    /* padding-left: 90px;
+    padding-bottom: 90px;
+    padding-top: 90px; */
+    /* padding: 50px 80px 80px 20px;
+    margin: 0px;
+    border-style: solid;
+    border-bottom-color: green;
+    border-width: 20px;
+    color: aliceblue;
+    border-left-color: black;
+    border-right-color: black;
+    border-top-color: black;
+    min-width: 40px;
+    min-height: 300px;
+    border-top: 15px dashed white; */
+    /* border-color: bisque; */
+    
+
+/* 
+h3{
+    background-color: blueviolet;
+    /* margin-top: 90px; */
+    /* margin-top: 20px;
+    border-style: solid;
+    border-width: 20px;
+    margin: 30px;
+    border-top: dashed 20px green;
+    border-color: coral;
+    border-radius: 50%; */
+    
+/* } */
+
+/* .outline {
+    margin:20px;
+    padding: 30px; 
+    background-color: burlywood;
+    outline: solid 20px black;
+    outline-offset: 20px;
+    color: white;
+    text-decoration: none;
+}   */
+
+*{
+    margin: 20px;
+    padding: 20px; 
+    box-sizing: border-box;
+    /*   select border-box in universal to sont overlap the boxes */
+}
+a{
+    margin: rem;
+    padding: .2rem;
+    background-color: blue;
+    color: rgb(251, 250, 250);
+    cursor: pointer;
+    text-decoration: none;
+    border: solid 10px rgb(224, 15, 120);
+    outline: groove 20px rgb(246, 220, 23);
+    /* outline-offset: -20px; */
+    }
+
+
+    .one-1{
+        background-color: blue;
+        display: inline;
+
+    }
+
+    .two-2{
+        background-color: brown;
+    }

@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}.block{
+    margin:0px;
+    background: blue;
+    display: block;
+    /* display: inline; */
+    color: aliceblue;
+    text-align: center;
+    margin: auto;
+    width: 300px;
+    
+}
+
+.inline{
+    background: rgb(236, 114, 20);
+    display: block;
+    padding: 0px;
+    margin: 0px;
+    /* text-align: center; */
+}

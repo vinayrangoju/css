@@ -1,0 +1,16 @@
+h1{
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+}
+
+p{
+   
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* 'Courier New', Courier, monospace; these three are font stock */
+
+body{
+    color: aqua;
+}

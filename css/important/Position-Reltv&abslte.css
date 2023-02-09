@@ -1,0 +1,57 @@
+/* .main{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        border: solid 4px red;
+        background-color: yellow;
+        color: white;
+        
+}
+
+
+.one{
+    background-color: blue;
+    bottom: 20px;
+    position: absolute;
+
+}
+
+.two {
+    background-color: rgb(129, 232, 60);
+}
+
+span {
+    background-color: black;
+    bottom: 20px;
+    position: relative;
+    top: 20px;
+    left: 0px;
+} */
+
+.main{
+    border: solid 3px red;
+    border-radius: 20px;
+    height: 500px;
+    position: static;
+    /* margin: 0px;
+    padding: 0px; */
+    
+
+}
+.one{
+    background-color: aqua;
+    height: 50px;
+    width: 50px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+}
+
+.two{
+    background-color: brown;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}

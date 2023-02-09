@@ -1,0 +1,25 @@
+h3{
+
+    line-height: 20px;
+}
+
+.lineheight{
+   line-height: 10px;
+}
+
+.letterspace{
+    letter-spacing: 30px;
+}
+
+.wordspace {
+    word-spacing: 30px;
+}
+
+.texttransform {
+    text-transform: capitalize;
+    text-transform: uppercase;
+}
+
+.textdecoration {
+    text-decoration: line-through;
+}

@@ -1,0 +1,60 @@
+/* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  div {
+    min-height: 100vh;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+  }
+  
+  .banner {
+    background: url("../images/pexels-christina-morillo-1181275.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  
+  .header {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),
+       url("../images/newimg.jpeg") /*center/cover no-repeat fixed */ 
+  
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    min-height: 100vh;
+    color: orange;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 70px;
+
+}
+.one{
+        background: url("../images/pexels-christina-morillo-1181275.jpg");
+        background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+
+
+.two {
+    background: url("../images/pexels-craig-dennis-205421.jpg");
+    background: linear-gradient( rgba(0,0,0,0.5) rgba(0,0,148,0.3) );
+    background-size: cover ;
+}

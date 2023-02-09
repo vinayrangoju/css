@@ -1,0 +1,286 @@
+Css--Cascading syles sheets
+----------------------------
+
+Websites for colors:
+--------------------
+coolors.co
+
+Resposinble for styling
+Html-Structure Css-- Styling,Look,Layout
+
+   
+Selector
+-----------
+Syntax-->Selector{property:value;}
+--H1,h2,p,input,table,classes,id,a
+
+Property 
+----------
+--Bgcolor,color,fontsize
+
+Value
+----------
+red,black,2px,30px
+
+1.Inline Css ---Writing Styles in tag 
+2.Internal Css -- Writing Styles in Head tag  
+3.External Css --Importing from Css file
+
+Priority--inline > internal >external
+
+Comments in Css
+-----------------
+/* data */
+
+Types of selectors :
+----------------------
+Element selectors --h1{} can use only one selectors 
+Group selectors h1,p{} can use group selectors
+Id selectors -- Using ids we can use selectors  id=name in css use #name{} 
+Class selectors--- using class we can call more than two class="red" in css .red{}
+
+Div:
+------
+To divode elements
+
+Span :
+----------
+To add styles to particular span of text
+
+Inheritance :
+----------------
+parent property comes to child
+For ex: body is parent|child is tags in (html)
+
+Last rule,Specificity &universal selector :
+-------------------------------------------------
+last rule:
+-----------
+Takes last added css 
+/* Last rule is applicable for last added css */
+
+Specificity :
+--------------
+/* Class has more specificity than element */
+/* id has more specificity than class  */
+Specificity shows on hower the cursor on element..
+
+Universal selector :
+-----------------------
+/* universel selectors will applicable to all elements and selectors */
+
+Selecting colors ;
+--------------------
+/* There are 144 colors */
+/* Each color max rgb value is 255 */ 
+Opacity --0.1 to--1
+---------------------
+ /* Opacity by adding rgba element 0.5 */
+ Hex values:
+ ------------
+ #00ff00  rrggbb a=10 b=11 c=12 d=13 e=14 f=15
+
+Color picking in visual studio :
+---------------------------------
+color: ctrl+spacebar ; to see all 144 colors
+
+Units in css :
+---------------
+    font-size: 30px;
+    width: 180px;
+    background-color:lightcoral;
+    height: 200px;
+
+Percentage values -- RELATIVE  on parent  (inheritance):
+---------------------------------------------
+<h4>Interitance concept</h4>
+    <div class="outer"> 
+        <div class="inner"> </div>
+    </div>
+
+.inner {
+    width:50%;
+    height:50%;
+    background-color: rgb(229, 127, 63);
+}
+
+.outer {
+    width:300px;
+    height: 300px;
+    background-color: rgb(38, 35, 212);
+}
+
+vh & vw :
+---------------
+vh -height -Percentage of the screen
+vw -Width -Percentage of the screen
+--Screen size reduces box size reduces
+
+
+minimum,maximum/height,width :
+--------------------------------
+h2{
+    background: black;
+    color: beige;
+    min-height: 200px;    to set min & max height of background  
+    }
+
+    Font size & family :
+    --------------------------
+    To change font size and styles
+    /* 'Courier New', Courier, monospace; these three are font stock */
+   Google fonts:
+   --------------------
+   googlefonts.com/fonts.google.com {to dowload fonts}
+   we can import fonts from that
+
+------------------------------
+   Font-weight - To change text bolder/lighter
+   font-style - To change font styles
+   text-align - To align text to centre/left/right
+   text-indent - To set first line gap in paragraph and next from left
+--------------------------------
+
+
+*/
+Line-height -To adjust line height
+letter spacing - To set space between each letter
+text-transform - to change text to upper&lower cases and capitlize
+word spacing - To set space between words
+text deocoration - to decorate tect like underline,cross text
+/*
+
+
+Css box model:
+----------------------
+    1.Padding
+    2.Margin
+    3.border
+    4.border-radius
+
+outline&offset :
+---------------------
+outline : 
+
+Display none,Visibility,opacity:
+-----------------------------------
+1. Removes element from Percentage
+2.invisible and space remains
+3.Colorcontrast will be reduced
+
+background image $ attachments:
+--------------------------------
+div{
+    min-height: 50vh;
+     color: rgb(244, 11, 11);
+     display: flex;
+     justify-content: center;
+     align-content: center;
+     text-align: center;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    .medium {
+   
+    background: url("../images/pexels-veeterzy-303383.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: repeat;
+
+
+Float :
+---------------
+Used to keep elements beside 
+Clear:both; used to clear 
+
+position:  Absolute&RELATIVE
+----------------------------------
+Absolute : It takes the entire page as reference to change position
+relative : It depends on parent and inside the parent positon will be changed
+position:fixed; it will stick thier while scrolling
+
+@media screen and (min-width:576px){
+       body{
+------------------------------------
+We can change styles by screen size
+
+
+Z-Index :
+------------------
+z-index:1; for image up
+z-index:-1;for img down
+When position staitc z-index doesn't work
+
+psuedo elements: We can add html in css but not to image:
+-----------------------------------------
+p::before{data} 
+
+
+This is descandant & child combinator :
+-------------------------------------------
+div h1 {
+    color: brown;
+}
+
+div > h1{
+    color: blue;
+}
+
+pseudo firstline,firstletter:
+-----------------------------
+to change styles to first line,letter
+textindent-- to give space while startting
+
+Hover:
+-----------
+button:hover{
+    background-color: aliceblue;
+    background: transparent;
+    border: solid black 2px;
+}
+
+Different links:
+-------------------
+a:link{
+    color: orange;
+}
+
+a:visited{
+    color: blueviolet;
+}
+
+a:hover{
+    color: brown;
+}
+
+a:active{
+    color: green;
+}
+
+
+transform,transition,animation:
+--------------------------------
+
+
+
+
+variables:
+--------------------------
+:root{} is global for entire html we can use
+:div{} parent to child 
+
+
+FOnt icons:
+-----------------
+fontawesome (google chrome)
+
+text shawdow genarator (chrome) we can genarate and ocde copy from chrome
+box shawdow genarator (chrome)
+
+
+Browser syntax:
+---------------------
+from google for unsupported brwsr
+

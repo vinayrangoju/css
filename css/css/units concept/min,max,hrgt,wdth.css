@@ -1,0 +1,19 @@
+h1{
+    
+    background: black;
+    color: beige;
+    min-height: 200px;
+}
+
+ h2{
+    
+    background: black;
+    color: beige;
+    min-height: 200px;
+ }  
+
+ p{
+    background: black;
+    color: beige;
+    max-width: 10px;
+ }

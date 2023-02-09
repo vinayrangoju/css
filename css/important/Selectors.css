@@ -1,0 +1,23 @@
+/* Element seletors */
+h1{
+    color: blue;    
+}
+/* Group seletors */
+h2,p{color: rgb(30, 185, 36);
+  background-color: rgb(218, 205, 205);
+}
+
+/* id selectors */
+#Green {
+    color: rgb(47, 213, 18);
+    text-transform: uppercase;
+}
+
+/* class selectors */
+
+.sel1 {
+    color: rgb(229, 83, 15);
+    text-decoration: dashed;
+    text-transform: uppercase;
+}
+

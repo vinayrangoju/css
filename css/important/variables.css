@@ -1,0 +1,23 @@
+:root{
+    --heading:red;
+    --paragrapgh:blue;
+    --transition:linear;
+}
+
+.heading{
+    color: var(--heading);
+}
+
+.paragraph{
+    color: var(--paragrapgh);
+}
+
+
+.mainh{
+    color: var(--heading);
+    --mainh:pink;
+}
+
+.mainp{
+    color: var(--mainh);
+}

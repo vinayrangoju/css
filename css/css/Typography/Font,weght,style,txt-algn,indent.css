@@ -1,0 +1,38 @@
+body{
+     font-weight: bolder;
+}
+
+.Heading1{
+          
+       font-weight:bolder;
+       font-style: italic;
+       text-align: center;
+}
+
+.one{
+
+     font-weight: 00;
+     font-style: oblique;
+     text-align: left;
+     text-indent: 3rem;
+}
+
+.two {
+     
+    font-weight: lighter;
+    font-style: inherit;
+    text-align: justify;
+    text-indent: 2rem;
+}
+
+.Heading2 {
+    font-weight: 1000px;
+    font-style: unset;
+    text-align: center;
+}
+
+.hone{
+    font-weight: bolder;
+    font-style: oblique;
+    text-align: left;
+}

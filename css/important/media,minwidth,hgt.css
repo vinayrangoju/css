@@ -1,0 +1,41 @@
+body{
+    background-color: blueviolet;
+}
+.banner {
+background-color: chocolate;
+}
+h1
+{
+    background: rgb(32, 142, 194);
+    text-decoration: underline;
+}
+
+@media screen and (min-width:576px){
+       body{
+        background-color: cadetblue;
+       }
+
+       .banner {
+        background-color: chocolate;
+        }
+        h1
+        {
+            background: rgb(178, 194, 32);
+            text-decoration: dashed;
+        }
+}
+
+@media screen and (min-width:706px){
+    body{
+     background-color: rgb(249, 125, 23);
+    }
+
+    .banner {
+     background-color: rgb(210, 30, 60);
+     }
+     h1
+     {
+         background: rgb(35, 32, 194);
+         text-decoration: dashed;
+     }
+}

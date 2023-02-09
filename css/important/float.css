@@ -1,0 +1,38 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+div{
+    width: 33.333%;
+    height: 300px;
+    float: left;
+}
+
+.one{
+     /* float: left; */
+     background: hsl(0, 100%, 50%);
+     /* width: 33.333%;
+     height: 300px; */
+}
+
+.two{
+    /* float: left; */
+    background: blue;
+    /* width: 33.333%;
+    height: 300px; */
+}
+
+
+.three{
+    /* float: left; */
+    background: rosybrown;
+    /* width: 33.333%;
+    height: 300px; */
+}
+
+h1{
+    clear: both;
+}
+
